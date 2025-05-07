@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Irina-Paukova/ajs-webpack.git"
+    "url": "git+https://github.com/Valdemarovna/ajs-homeworks-modules.git"
   },
   "keywords": [
     "netology"
@@ -20,9 +20,9 @@
   "author": "Irina Bogomazova",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Irina-Paukova/ajs-webpack/issues"
+    "url": "https://github.com/Valdemarovna/ajs-homeworks-modules/issues"
   },
-  "homepage": "https://github.com/Irina-Paukova/ajs-webpack#readme",
+  "homepage": "https://github.com/Valdemarovna/ajs-homeworks-modules",
   "devDependencies": {
     "@babel/cli": "^7.17.10",
     "@babel/core": "^7.17.10",
