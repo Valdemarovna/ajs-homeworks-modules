@@ -1,0 +1,43 @@
+{
+  "name": "netology-prj",
+  "version": "1.0.0",
+  "description": "\"homework\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --mode development",
+    "lint": "eslint .",
+    "babel": "babel src -d dist",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Irina-Paukova/ajs-webpack.git"
+  },
+  "keywords": [
+    "netology"
+  ],
+  "author": "Irina Bogomazova",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Irina-Paukova/ajs-webpack/issues"
+  },
+  "homepage": "https://github.com/Irina-Paukova/ajs-webpack#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.17.10",
+    "@babel/core": "^7.17.10",
+    "@babel/preset-env": "^7.17.10",
+    "babel-loader": "^8.2.5",
+    "core-js": "^3.22.3",
+    "css-loader": "^6.7.1",
+    "eslint": "^8.14.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "html-loader": "^3.1.0",
+    "html-webpack-plugin": "^5.5.0",
+    "mini-css-extract-plugin": "^2.6.0",
+    "webpack": "^5.72.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.9.0"
+  }
+}
